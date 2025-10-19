@@ -134,7 +134,7 @@ Sebagai *Administrator*, Anda memiliki kendali penuh terhadap sistem parkir. Ber
 ### Untuk Admin
 
 * Login dengan akun admin untuk mengelola sistem
-* Akses dashboard admin di /admin/dashboard.php
+* Akses dashboard admin di /admin/index.php
 * Monitor seluruh aktivitas parkir secara real-time
 * Kelola pengguna, kendaraan, area parkir, dan laporan
 
@@ -144,7 +144,7 @@ Sebagai *Administrator*, Anda memiliki kendali penuh terhadap sistem parkir. Ber
 
 ### Tabel users
 
-* Menyimpan data pengguna (mahasiswa, dosen, staff, admin)
+* Menyimpan data pengguna/user (mahasiswa, dosen, staff, admin)
 
 ### Tabel kendaraan
 
