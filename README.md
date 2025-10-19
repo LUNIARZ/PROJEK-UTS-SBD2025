@@ -95,10 +95,10 @@ Sebagai *Administrator*, Anda memiliki kendali penuh terhadap sistem parkir. Ber
          <p>│   ├── admin-style.css</p>
          <p>│   ├── areas.php</p>
          <p>│   ├── edit_users.php</p>
-             <p>├── index.php</p>
-             <p>├── logs.php</p>
-             <p>├── reports.php</p>
-             <p>└── users.php</p>
+            <p>│├── index.php</p>
+             <p>│├── logs.php</p>
+             <p>│├── reports.php</p>
+             <p>│└── users.php</p>
          <p>│   </p>
          <p>├── style.css</p>
          <p>├── database.sql</p>
