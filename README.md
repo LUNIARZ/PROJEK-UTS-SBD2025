@@ -81,28 +81,28 @@ Sebagai *Administrator*, Anda memiliki kendali penuh terhadap sistem parkir. Ber
    * Pastikan struktur folder seperti ini:
 
      
-     htdocs/
-     └── parkir/
-         ├── config.php
-         ├── index.php
-         ├── login.php
-         ├── register.php
-         ├── parkir_masuk.php
-         ├── parkir_keluar.php
-         ├── kendaraan.php
-         ├── logout.php
-         ├── admin/
-         │   ├── admin-style.css
-         │   ├── areas.php
-         │   ├── edit_users.php
-             ├── index.php
-             ├── logs.php
-             ├── reports.php
-             └── users.php
-         │   
-         ├── style.css
-         ├── database.sql
-         └── README.md
+     <p>htdocs/</p>
+     <p>└── parkir/</p>
+         <p>├── config.php</p>
+         <p>├── index.php</p>
+         <p>├── login.php</p>
+         <p>├── register.php</p>
+         <p>├── parkir_masuk.php</p>
+         <p>├── parkir_keluar.php</p>
+         <p>├── kendaraan.php</p>
+         <p>├── logout.php</p>
+         <p>├── admin/</p>
+         <p>│   ├── admin-style.css</p>
+         <p>│   ├── areas.php</p>
+         <p>│   ├── edit_users.php</p>
+             <p>├── index.php</p>
+             <p>├── logs.php</p>
+             <p>├── reports.php</p>
+             <p>└── users.php</p>
+         <p>│   </p>
+         <p>├── style.css</p>
+         <p>├── database.sql</p>
+         <p>└── README.md</p>
      
 
 4. *Konfigurasi Database (Opsional)*
