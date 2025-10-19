@@ -2,7 +2,7 @@
 
 > *Projek ini dibuat oleh: ANOMALI ANCAMAN*
 
-![Status](https://img.shields.io/badge/status-alpha-orange) ![License](https://img.shields.io/badge/license-MIT-blue) ![Made With ❤](https://img.shields.io/badge/made%20with-HTML%2FCSS%2FJS-green) ![Backend](https://img.shields.io/badge/backend-PHP-blue) ![Database](https://img.shields.io/badge/database-MySQL-yellow)
+![Status](https://img.shields.io/badge/status-alpha-orange) ![License](https://img.shields.io/badge/license-MIT-blue) ![Made With ❤](https://img.shields.io/badge/made%20with-HTML%2FCSS-green) ![Backend](https://img.shields.io/badge/backend-PHP-blue) ![Database](https://img.shields.io/badge/database-MySQL-yellow)
 
 ---
 
