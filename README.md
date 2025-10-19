@@ -45,17 +45,13 @@ Sistem manajemen parkir kampus gratis berbasis web menggunakan PHP dan MySQL.
 Sebagai *Administrator*, Anda memiliki kendali penuh terhadap sistem parkir. Berikut adalah fitur-fitur tambahan khusus admin:
 
 ### 🔧 Fitur Admin
-
-* *Manajemen Pengguna*: Tambah, ubah, atau hapus akun pengguna (mahasiswa, dosen, staff dan admin)
-* *Mengelola User*: Nama Lengkap, Username, Password, Email, No.Telepon dan Role
-* *Kontrol Area Parkir*: Tambah Area Parkir Baru, Memilih Jenis Kendaraan, Atur Kapasitas, Update dan Hapus
+* *Admin memiliki akses khusus melalui dashboard yang berbeda dari pengguna biasa
+* *Dashboard Admin*: Menu Kelola User, Kelola Area Parkir, Laporan dan Statistik, Log Aktivitas, Daftar Pendaftar Terbaru, dan Aktivitas Parkir Terbaru
+* *Mengelola User*: Nama Lengkap, Username, Password, Email, No.Telepon, Role, dan Daftar User
+* *Mengelola Area Parkir*: Tambah Area Parkir Baru, Memilih Jenis Kendaraan, Atur Kapasitas, Update dan Hapus
 * *Monitoring Real-time*: Lihat semua kendaraan yang sedang parkir
-* *Laporan Aktivitas*: Unduh dan lihat riwayat parkir dalam bentuk tabel dan grafik
-* *Manajemen Kendaraan*: Edit dan hapus kendaraan pengguna
-* *Reset Sistem*: Kosongkan data parkir untuk periode baru
-* *Pengaturan Sistem*: Atur batas waktu parkir, kapasitas maksimal, dan konfigurasi lainnya
-
-> Admin memiliki akses khusus melalui dashboard yang berbeda dari pengguna biasa, lengkap dengan visualisasi data dan notifikasi sistem.
+* *Laporan Aktivitas*: Filter Tanggal Mulai dan Akhir, Isi Statistik Utama, Statistik per Area Parkir, Statistik per Role User, Aktivitas 7 Hari Terakhir, dan Jam Sibuk Hari Sekarang
+* *Log Aktivitas Parkir*: Filter Cari User, Status, Jenis Kendaraan, serta Tanggal, Riwayat Aktivitas(Waktu, User, Role, Kendaraan, Area, Status, Durasi Parkir
 
 ---
 
@@ -79,7 +75,7 @@ Sebagai *Administrator*, Anda memiliki kendali penuh terhadap sistem parkir. Ber
    * Import file database.sql untuk membuat database dan tabel
    * Database akan dibuat dengan nama parkir
 
-3. *Setup File Website*
+3. *File Website*
 
    * Copy semua file PHP ke folder htdocs/parkir/ di direktori XAMPP
    * Pastikan struktur folder seperti ini:
@@ -96,10 +92,14 @@ Sebagai *Administrator*, Anda memiliki kendali penuh terhadap sistem parkir. Ber
          ├── kendaraan.php
          ├── logout.php
          ├── admin/
-         │   ├── dashboard.php
-         │   ├── pengguna.php
-         │   ├── area_parkir.php
-         │   └── laporan.php
+         │   ├── admin-style.css
+         │   ├── areas.php
+         │   ├── edit_users.php
+             ├── index.php
+             ├── logs.php
+             ├── reports.php
+             └── users.php
+         │   
          ├── style.css
          ├── database.sql
          └── README.md
@@ -120,7 +120,7 @@ Sebagai *Administrator*, Anda memiliki kendali penuh terhadap sistem parkir. Ber
 
 ---
 
-## 💻 Penggunaan
+## Penggunaan
 
 ### Untuk Pengguna Baru
 
@@ -160,16 +160,16 @@ Sebagai *Administrator*, Anda memiliki kendali penuh terhadap sistem parkir. Ber
 
 ---
 
-## ⚙ Teknologi yang Digunakan
+## Teknologi yang Digunakan
 
-* *Backend*: PHP 7.4+
-* *Database*: MySQL 5.7+
-* *Frontend*: HTML5, CSS3, JavaScript
+* *Backend*: PHP 
+* *Database*: MySQL 
+* *Frontend*: HTML dan CSS
 * *Server*: Apache (XAMPP)
 
 ---
 
-## 🔒 Keamanan
+## Keamanan
 
 * Password di-hash menggunakan MD5
 * Session management untuk autentikasi
@@ -180,26 +180,26 @@ Sebagai *Administrator*, Anda memiliki kendali penuh terhadap sistem parkir. Ber
 
 ## 💡 Pengembangan Lanjutan
 
-Untuk pengembangan lebih lanjut, Anda dapat:
+Untuk pengembangan lebih lanjut, Coming Soon:
 
-1. Menambahkan fitur notifikasi email
-2. Implementasi QR code untuk tiket parkir
-3. Integrasi dengan sistem pembayaran
-4. Mobile app development
-5. Reporting dan analytics
+1. ---
+2. ---
+3. ---
+4. ---
+5. ---
 
 ---
 
-## 📄 Lisensi
+## Lisensi
 
 Sistem ini dibuat untuk keperluan edukasi dan dapat digunakan secara bebas.
 
 ---
 
-## 📬 Kontak
+## Kontak
 
 Untuk pertanyaan atau dukungan teknis, silakan hubungi administrator sistem atau anggota tim melalui GitHub masing-masing.
 
 ---
 
-Terima kasih telah melihat projek ini — semoga bermanfaat dan menjadi catatan pembelajaran yang berguna! 🎉
+Terima kasih telah melihat projek ini — semoga bermanfaat dan menjadi catatan pembelajaran yang berguna! 
