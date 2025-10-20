@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #4CAF50 0%, #87CEEB 100%);
     min-height: 100vh;
     color: #333;
 }
@@ -40,7 +40,7 @@ body {
 .logo {
     font-size: 1.8rem;
     font-weight: bold;
-    color: #667eea;
+    color: #2E7D32;
     text-decoration: none;
 }
 
@@ -63,7 +63,7 @@ body {
 }
 
 .nav-links a:hover {
-    color: #667eea;
+    color: #2E7D32;
 }
 
 /* Cards */
@@ -117,8 +117,8 @@ body {
 
 .form-input:focus {
     outline: none;
-    border-color: #667eea;
-    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+    border-color: #4CAF50;
+    box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.1);
 }
 
 .form-select {
@@ -146,17 +146,17 @@ body {
 }
 
 .btn-primary {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #4CAF50 0%, #66BB6A 100%);
     color: white;
 }
 
 .btn-primary:hover {
     transform: translateY(-2px);
-    box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
+    box-shadow: 0 8px 25px rgba(76, 175, 80, 0.3);
 }
 
 .btn-success {
-    background: linear-gradient(135deg, #56ab2f 0%, #a8e6cf 100%);
+    background: linear-gradient(135deg, #2E7D32 0%, #4CAF50 100%);
     color: white;
 }
 
@@ -351,7 +351,7 @@ body {
 
 .spinner {
     border: 4px solid #f3f3f3;
-    border-top: 4px solid #667eea;
+    border-top: 4px solid #4CAF50;
     border-radius: 50%;
     width: 40px;
     height: 40px;
@@ -418,9 +418,9 @@ body {
 
 /* Active state for nav links */
 .nav-links a.active {
-    color: #667eea;
+    color: #2E7D32;
     font-weight: bold;
-    background: rgba(102, 126, 234, 0.1);
+    background: rgba(46, 125, 50, 0.1);
     border-radius: 8px;
 }
 
@@ -570,7 +570,7 @@ body {
     }
     
     .nav-links a:hover {
-        background: rgba(102, 126, 234, 0.1);
+        background: rgba(46, 125, 50, 0.1);
     }
 }
 
@@ -619,7 +619,7 @@ body {
 }
 
 .quick-actions .btn-success {
-    background: linear-gradient(135deg, #56ab2f 0%, #a8e6cf 100%);
+    background: linear-gradient(135deg, #2E7D32 0%, #4CAF50 100%);
     color: white;
 }
 
@@ -642,7 +642,7 @@ body {
 .logo {
     font-size: 1.8rem;
     font-weight: bold;
-    color: #667eea;
+    color: #2E7D32;
     text-decoration: none;
     white-space: nowrap;
 }
@@ -665,14 +665,14 @@ body {
 }
 
 .nav-links a:hover {
-    color: #667eea;
-    background: rgba(102, 126, 234, 0.1);
+    color: #2E7D32;
+    background: rgba(46, 125, 50, 0.1);
 }
 
 .nav-links a.active {
-    color: #667eea;
+    color: #2E7D32;
     font-weight: bold;
-    background: rgba(102, 126, 234, 0.15);
+    background: rgba(46, 125, 50, 0.15);
 }
 
 /* Mobile Menu Toggle */
@@ -779,7 +779,7 @@ body {
     }
     
     .nav-links a:hover {
-        background: rgba(102, 126, 234, 0.1);
+        background: rgba(46, 125, 50, 0.1);
     }
 }
 
@@ -796,7 +796,7 @@ body {
 }
 
 .btn-success.btn-sm {
-    background: linear-gradient(135deg, #56ab2f 0%, #a8e6cf 100%);
+    background: linear-gradient(135deg, #2E7D32 0%, #4CAF50 100%);
     color: white;
 }
 
